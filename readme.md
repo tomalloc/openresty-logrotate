@@ -1,0 +1,4 @@
+docker build -t openresty-logrotate:1.21.4.1 .
+
+
+docker run -d --name openresty  -p 80:80  openresty-logrotate:1.21.4.1
