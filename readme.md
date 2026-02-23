@@ -1,4 +1,9 @@
-docker build -t openresty-logrotate:1.21.4.1 .
 
+```bash
+docker build -t tomalloc/openresty-logrotate:1.21.4.1
+docker push tomalloc/openresty-logrotate:1.21.4.1
 
 docker run -d --name openresty  -p 80:80  openresty-logrotate:1.21.4.1
+
+
+```
