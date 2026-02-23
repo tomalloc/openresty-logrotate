@@ -1,4 +1,4 @@
-FROM docker.1ms.run/openresty/openresty:1.21.4.1-0-bullseye-fat
+FROM openresty/openresty:1.21.4.1-0-bullseye-fat
 
 
 RUN apt-get update \
