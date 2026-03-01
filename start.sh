@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+mkdir -p /usr/local/openresty/nginx/logs/backup
+
 mkdir -p /var/spool/cron/crontabs/
 if command -v crond &> /dev/null; then
     crond
